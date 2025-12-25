@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+
+int addNumbers(int firstNumber, int secondNumber) {
+    return firstNumber + secondNumber;
+}
+
+int main() {
+    int a, b;
+    cout << "Enter number 1: ";
+    cin >> a;
+
+    cout << "Enter number 2: ";
+    cin >> b;
+
+    cout << "Sum = " << addNumbers(a, b) << endl;
+    return 0;
+}
